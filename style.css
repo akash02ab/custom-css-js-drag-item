@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container {
+    height: 80vh;
+    width: 80vw;
+    background: palegreen;
+    position: relative;
+}
+
+
+.box {
+    width: 8rem;
+    height: 8rem;
+    background: turquoise;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    cursor: pointer;
+    position: absolute;
+}
+
+.box:hover {
+    cursor: move;
+}
